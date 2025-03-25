@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    padding-inline: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 100%;
+}
+
+.logo_nav img {
+    width: 190px;
+}
+
+.nav_links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.nav_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_link img {
+    width: 39px;
+}
+
+.nav_item {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.section_bleu {
+    background-color: #3E5261;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img_bleu img {
+    width: 130px;
+}
+
+.h_bleu {
+    color: white;
+}
+
+.h_bleu h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.h_bleu h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.section_blanc {
+    background-color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.h1_blanc h1 {
+    background-color: #3E5261;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.img_blanc, .p_blanc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img_blanc {
+    width: 200px;
+    margin-right: 40px;
+}
+
+.img_blanc img {
+    width: 100%;
+}
+
+.p_blanc {
+    max-width: 500px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.section_beige {
+    background-color: #e5d8c5;
+    padding: 40px;
+    text-align: center;
+}
+
+.dip_beige {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.item_beige {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_beige img {
+    width: 80px;
+}
+
+.item_beige p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    width: 100%;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_column {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h4 {
+    padding-left: 5px ;
+    display: inline-block;
+}
+
+.footer_icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer_icons img {
+    width: 50px;
+}
